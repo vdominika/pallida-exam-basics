@@ -1,0 +1,15 @@
+What is the difference between a function and a method? [2p]
+Your answer:
+
+Actually there are no functions in Java, just methods. To imitate methods, Java generally
+uses static methods.A method is basically a function with one extra parameter (invisible 
+in Java). You can refer to it as this. That this thing allows you to access the object 
+whose method is being called, so you can think that the entire object is always an implicit
+ parameter to a method, additionally to parameters you normally define.
+
+What is the constructor? When it is used? [2p]
+Your answer:
+
+A constructor is a special method. Basically their name is the same as the class' name, and
+it is invisible, as long as someone does not "call" it. This is the place, where the new
+objects can be born (or can be created),
