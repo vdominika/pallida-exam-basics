@@ -5,9 +5,6 @@ public class CandyShop {
 
     public static void main(String[] args) {
 
-        int CANDY;
-        int LOLLIPOP;
-
         CandyShop candyShop = new CandyShop(300);
 
         candyShop.createSweets(CandyShop.CANDY);

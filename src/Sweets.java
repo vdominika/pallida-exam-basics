@@ -7,5 +7,4 @@ public class Sweets  extends CandyShop{
         amountOfSugar = amountOfSugar + i;
         income = income - (i * priceOfsugar);
     }
-
 }
